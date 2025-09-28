@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="HomeCont Cont">
+            <div class="HomeIntro">
+                <video autoplay muted loop id="HomeBG">
+                    <source src="assets/videobg.mp4" type="video/mp4">
+                </video>
+                <div class="HomeMonogram"><img src="assets/monogram.svg"/></div>
+                <h1 class="HomeHeader Header">
+                    Like bees, our paths crossed over Bumble—tiny gestures, sweet moments.<br>
+                    And now we invite you to share our special day.
+                </h1>
+            </div>
+            <div class="HomeCTA BtnCont">
+                <button onclick="location.href='#StoryCont'" class="Btn">Our Story</button>
+                 <!-- <a href="#StoryCont" class="Btn">Our Story</a> -->
+            </div>
+        </div>
+        <div class="StoryCont Cont" id="StoryCont">
+                <h1 class="StoryHeader Header">
+                    Our Story
+                </h1>
+            <div class="Timeline">
+                <p class="TimelineHeader">💫 How It All Began</p>
+                <p class="TimelineDate">March 2018</p>
+                <p class="TimelineText">
+                    We met by chance at a cozy little café downtown. One cup of coffee turned into hours of laughter — and we’ve been inseparable ever since.
+                </p>
+            </div>
+            <div class="Timeline">
+                <p class="TimelineHeader">💌 First “I Love You”</p>
+                <p class="TimelineDate">March 2018</p>
+                <p class="TimelineText">
+                   A quiet summer night, a walk under the stars, and a moment we’ll never forget — the first time we said “I love you.”
+                </p>
+            </div>
+            <div class="Timeline">
+                <p class="TimelineHeader">✈️ Our First Trip Together</p>
+                <p class="TimelineDate">December 2018</p>
+                <p class="TimelineText">
+                   We packed our bags and went on our first big adventure together: a magical trip to Paris. From that point on, we knew we could go anywhere — as long as we were together.
+                </p>
+            </div>
+            
+            <div class="Timeline">
+                <p class="TimelineHeader">🏡 Moved In Together</p>
+                <p class="TimelineDate">August 2019</p>
+                <p class="TimelineText">
+                   A new chapter started when we moved in together. From decorating our space to cooking late-night meals, we built a home filled with love and laughter.
+                </p>
+            </div>
+        </div>
+        <!-- <div class="DetailsCont  Cont"></div> -->
+        <div class="MapsCont Cont">
+            <iframe 
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.6101307693407!2d120.89177987591349!3d14.100177089130803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd9d6997c51e9f%3A0x851e440bfada4cc9!2sAntonio&#39;s%20Restaurant!5e0!3m2!1sen!2sph!4v1754107554964!5m2!1sen!2sph"
+            >
+            </iframe>
+        </div>
+        <div class="RSVPCont Cont">
+            <h1 class="RSVPHeader Header">Join Us On Our Special Day!</h1>
+            <form action="" method="get" class="RSVPForm">
+                <div class="RSVPInput FirstName">
+                    <input type="text" placeholder="First Name" class="input-field" required />
+                </div>
+                <div class="RSVPInput LastName">
+                    <input type="text" placeholder="Last Name" class="input-field" required />
+                </div>
+                <div class="RSVPInput Email">
+                    <input type="text" placeholder="Email Address" class="input-field" required />
+                </div>
+                <div class="BtnCont RSVPInput RSVPBtn"><button class="Btn">RSVP</button></div>
+            </form>
+        </div>
+
+        <div class="FooterCont Cont">
+            <!-- Photo Grid -->
+            <div class="CollageRow"> 
+            <div class="CollageColumn">
+                <img src="assets/img1.jpg" style="width:100%">
+                <img src="assets/img2.jpg" style="width:100%">
+                <img src="assets/img1.jpg" style="width:100%">
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
